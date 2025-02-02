@@ -1,11 +1,11 @@
 pipeline{
     agent any
     environment{
-        GIT_REPO = 'https://github.com/JuanJoseSoloraznoCarrillo/JenkinsTesting.git'
+        GIT_REPO = 'git@github.com:JuanJoseSoloraznoCarrillo/JenkinsRepository.git'
         GIT_BRANCH = 'master'
         GIT_USER = 'Jenkins CT'
         GIT_MAIL = 'Jenkins@example.com'
-        REPO_NAME = 'JenkinsTesting'
+        REPO_NAME = 'Jenkins'
     }
     stages{
         stage('Check If Repo Exists'){
