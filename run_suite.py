@@ -1,8 +1,6 @@
-import os
 
-def Run():
-    print("I am running ...")
-    os.system("mkdir testOne")
+def run(cnt):
+    print("I am running from Jenkins. Execution=%s..."%cnt)
 
 if __name__ == '__main__':
-    Run()
+    run(0)
