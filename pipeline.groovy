@@ -1,3 +1,11 @@
+/** 
+    *Author: Juan José Solorzano Carrillo
+    *Date: 2024-09-30
+    *Description: This is a declarative pipeline script that will clone a repository, run a python script and log
+                  the output of the git log command.
+    *The script will run on any available agent.
+*/
+
 pipeline{
     agent any
     environment{
